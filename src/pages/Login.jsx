@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react'
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import context from '../context/Context';
+import context from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 
 const Login = () => {

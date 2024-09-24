@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react'
 import axios from 'axios';
-import context from '../context/Context';
+import context from '../context/AuthContext';
 import MyBlogs from '../components/MyBlogs';
 import { BiSolidUserCircle } from 'react-icons/bi';
 import { MdEmail } from 'react-icons/md';
