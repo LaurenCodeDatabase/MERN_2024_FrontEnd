@@ -1,5 +1,5 @@
 import React ,{useState} from 'react'
-import Context from './Context'
+import Context from './AuthContext'
 
 
 const State = (props) => {
